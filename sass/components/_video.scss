@@ -1,0 +1,57 @@
+/* =============================
+    VIDEO START
+=============================== */
+#waxom_video {
+  background-image: url("../images/video_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 40px;
+  .overlay {
+    background-color: rgba(17, 17, 17, 0.7);
+    padding-top: 210px;
+    padding-bottom: 260px;
+    .container {
+      .row {
+        .col-lg-12 {
+          .item {
+            max-width: 545px;
+            text-align: center;
+            margin: auto;
+            .icon {
+              picture {
+                display: block;
+                height: 100px;
+                width: 100px;
+                background-color: #5e6165;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+                img {
+                }
+              }
+            }
+          }
+          .text {
+            h3 {
+              font-weight: 500;
+              color: $white_color;
+              padding-top: 45px;
+              padding-bottom: 30px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 28px;
+              color: $white_color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* =============================
+      VIDEO END
+=============================== */

@@ -1,0 +1,57 @@
+/* =============================
+    FOOTER START
+=============================== */
+footer {
+  background-color: $footer_bg;
+  padding: 40px 0 45px 0;
+  .container {
+    .row {
+      .col-lg-6 {
+        .left {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          p {
+            margin-right: 15px;
+            margin-bottom: 0;
+            a {
+              margin: 0;
+              color: $paragraph_color;
+            }
+          }
+          a {
+            margin: 0 15px;
+            color: #252525;
+            font-family: $font-family-montserrat;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 20px;
+            transition: $transition;
+            &:hover {
+              color: $brown_color;
+            }
+          }
+        }
+        .right {
+          display: flex;
+
+          align-items: center;
+          justify-content: flex-end;
+          p {
+            margin: 0 15px;
+            a {
+                color: $paragraph_color;
+                transition: $transition;
+                &:hover{
+                    color: $brown_color;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* =============================
+    FOOTER END
+=============================== */

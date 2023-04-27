@@ -1,0 +1,54 @@
+/* =============================
+       BANNER PART START
+=============================== */
+#banner {
+  background-image: url("../images/banner_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .overlay {
+    padding-top: 370px;
+    padding-bottom: 380px;
+    background-color: rgba(0, 0, 0, 0.5);
+    .container {
+      .row {
+        .col-lg-12 {
+          .banner_info {
+            max-width: 615px;
+            margin: 0 auto;
+            text-align: center;
+            h2 {
+              font-family: $font-family-raleway;
+              font-size: 36px;
+              font-weight: 500;
+              color: $white_color;
+            }
+            h1 {
+              font-family: $font-family-raleway;
+              font-size: 52px;
+              font-weight: 800;
+              color: $white_color;
+              padding-top: 5px;
+              padding-bottom: 6px;
+            }
+            p {
+              max-width: 575px;
+              font-family: $font-family-montserrat;
+              font-size: 16px;
+              line-height: 24px;
+              font-weight: 300;
+              color: $white_color;
+              padding-bottom: 34px;
+            }
+            button {
+              @include common_button;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* =============================
+         BANNER PART END
+=============================== */

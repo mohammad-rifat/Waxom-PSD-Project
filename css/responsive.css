@@ -1,0 +1,215 @@
+/* =============================
+       COMMON PART START
+=============================== */
+@media (max-width: 767px) {
+  .common_paragraph {
+    /* font-size: 12px; */
+  }
+}
+@media (max-width: 575px) {
+  #idea .container .row .col-lg-12 .section_heading h3 {
+    font-size: 20px;
+  }
+  .common_paragraph {
+    /* font-size: 8px; */
+  }
+}
+/* =============================
+       COMMON PART END
+=============================== */
+/* =============================
+       NAVBAR PART START
+=============================== */
+@media (max-width: 991px) {
+  .navbar-toggler {
+    display: none;
+  }
+  .toggle_btn {
+    display: block;
+  }
+}
+/* =============================
+       NAVBAR PART END
+=============================== */
+/* =============================
+       BANNER PART START
+=============================== */
+@media (max-width: 767px) {
+  #banner .overlay .container .row .col-lg-12 .banner_info button {
+    width: 150px;
+    height: 45px;
+  }
+  #banner .overlay .container .row .col-lg-12 .banner_info button {
+    width: 140px;
+    height: 40px;
+  }
+}
+@media (max-width: 767px) {
+  #banner .overlay .container .row .col-lg-12 .banner_info h2 {
+    font-size: 30px;
+  }
+  #banner .overlay .container .row .col-lg-12 .banner_info h1 {
+    font-size: 40px;
+  }
+  #banner .overlay .container .row .col-lg-12 .banner_info p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  #banner .overlay {
+    padding-top: 290px;
+    padding-bottom: 260px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media (max-width: 575px) {
+  #banner .overlay .container .row .col-lg-12 .banner_info h2 {
+    font-size: 25px;
+  }
+  #banner .overlay .container .row .col-lg-12 .banner_info h1 {
+    font-size: 35px;
+  }
+  #banner .overlay .container .row .col-lg-12 .banner_info p {
+    font-size: 11px;
+  }
+}
+/* =============================
+       BANNER PART END
+=============================== */
+/* =============================
+       IDEA PART START
+=============================== */
+@media (max-width: 991px) {
+  #idea #purchase .container .row .col-lg-12 .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #idea #purchase .container .row .col-lg-12 .item .text p {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  #idea #purchase .container .row .col-lg-12 .item .text h2 {
+    font-size: 25px;
+  }
+  #idea #purchase .container .row .col-lg-12 .item .text p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  #idea #purchase .container .row .col-lg-12 .item .text h2 {
+    font-size: 20px;
+  }
+  #idea #purchase .container .row .col-lg-12 .item .text p {
+    font-size: 12px;
+  }
+}
+/* =============================
+       IDEA PART END
+=============================== */
+/* =============================
+       PROJECT PART START
+=============================== */
+@media (max-width: 991px) {
+  #project .container .section_heading p {
+    font-size: 12px;
+  }
+  #project .container .section_heading h3 {
+    padding-bottom: 5px;
+    font-size: 25px;
+  }
+  #project .container .section_heading p {
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+@media (max-width: 767px) {
+  #project .container .buttons button {
+    margin-bottom: 20px;
+  }
+  #project .container .row .col-lg-4 .item {
+    max-width: 370px;
+    margin: auto;
+  }
+  #project .container .row .col-lg-4 .item picture {
+    margin: auto;
+  }
+  #project .container .row .col-lg-4 .item .text {
+    width: 370px;
+    margin: auto;
+  }
+  #project .container .row .col-lg-4 .item .text {
+    width: 370px;
+    margin: auto;
+  }
+  #project .container .row .col-lg-4:nth-child(4) {
+    margin-bottom: 25px;
+  }
+  #project .container .row .col-lg-4:nth-child(5) {
+    margin-bottom: 25px;
+  }
+  #project .container .row .col-lg-4:nth-child(6) {
+    margin-bottom: 25px;
+  }
+}
+/* =============================
+       PROJECT PART END
+=============================== */
+/* =============================
+       RECENT POST PART START
+=============================== */
+@media (max-width: 1199px) {
+  #recent_post .container .row .col-lg-4 .recent_item .info p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  #recent_post .container .row .col-lg-4 .recent_item {
+    max-width: 370px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}
+/* =============================
+       RECENT POST PART END
+=============================== */
+/* =============================
+       FOOTER PART START
+=============================== */
+@media (max-width: 991px) {
+  footer .container .row .col-lg-6 .left {
+    justify-content: center;
+  }
+  footer .container .row .col-lg-6 .right {
+    justify-content: center;
+  }
+}
+@media (max-width: 575px) {
+  footer .container .row .col-lg-6 .left p {
+    font-size: 10px;
+  }
+  footer .container .row .col-lg-6 .left a {
+    font-size: 10px;
+  }
+  footer .container .row .col-lg-6 .right p {
+    font-size: 10px;
+  }
+}
+/* =============================
+       FOOTER PART END
+=============================== */
+/* =============================
+       SERVICE PART START
+=============================== */
+@media (max-width: 991px) {
+  #service .container .row .col-lg-3 .service_item {
+    margin-bottom: 25px;
+  }
+}
+/* =============================
+       SERVICE PART END
+=============================== */

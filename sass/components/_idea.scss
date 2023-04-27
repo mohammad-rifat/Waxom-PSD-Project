@@ -1,0 +1,73 @@
+/* =============================
+    IDEA PART START
+=============================== */
+#idea {
+  background-color: $idea_bg;
+  padding-top: 80px;
+  margin-bottom: 40px;
+  .container {
+    .row {
+      .col-lg-12 {
+        .section_heading {
+          text-align: center;
+          padding-bottom: 40px;
+          h3 {
+            font-weight: 600;
+            font-size: 30px;
+          }
+          p {
+            max-width: 750px;
+            margin: 0 auto;
+
+            padding-top: 10px;
+          }
+        }
+        .image {
+          img {
+            transform: scaleX(1.05);
+          }
+        }
+      }
+    }
+  }
+  #purchase {
+    background-image: linear-gradient(to right, #211b19, #4e3427);
+    padding: 50px 0;
+    .container {
+      .row {
+        .col-lg-12 {
+          .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .text {
+              h2 {
+                font-weight: 400;
+                font-size: 28px;
+                color: $white_color;
+                a {
+                  color: $brown_color;
+                }
+              }
+              p {
+                font-family: $font-family-montserrat;
+                font-weight: 400;
+                font-size: 18px;
+                color: #615855;
+                margin-bottom: 0;
+              }
+            }
+            .button {
+              button {
+                @include common_button;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* =============================
+    IDEA PART END
+  =============================== */

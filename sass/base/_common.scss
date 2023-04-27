@@ -1,0 +1,41 @@
+@import "../variable/variable";
+/* =============================
+       ALL COMMON CSS START
+=============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+a {
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-raleway;
+  color: $heading_color;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.common_paragraph {
+  font-family: $font-family-montserrat;
+  font-weight: 300;
+  font-size: 14px;
+  color: $paragraph_color;
+  margin-bottom: 0;
+}
+/* =============================
+       ALL COMMON CSS END
+=============================== */
